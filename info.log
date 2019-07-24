@@ -27,3 +27,86 @@
 {"message":"Bookmark with id 123 not found.","level":"error"}
 {"message":"Unauthorized request to path: /bookmarks","level":"error"}
 {"message":"Bookmark with id 123 not found.","level":"error"}
+{"message":"Unauthorized request to path: /articles/911","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Url is required","level":"error"}
+{"message":"Bookmark with id 888fc86f-ab05-42f1-a7b2-632f20f00cea created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/911","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id 382ec284-6983-46fa-84a5-232833bc570f created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id cded07c2-d889-4f02-a363-94fc9c339b82 created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id a4e49605-2a49-4536-b9ed-fd089c843d6c created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id db5e230b-3605-44a9-af51-2af1b5792430 created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id 39f24f48-ceca-470f-985f-820ba0774a55 created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id 08feba22-7f92-4dba-a5c7-170263505159 created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id 0c97d4b2-2869-4ab3-8213-e2e69e5bcee5 created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id d8ffbb72-49e1-42a6-97a7-52cbe9d233a9 created","level":"info"}
+{"message":"Invalid url 'Bad image <img src=\"https://url.to.file.which/does-not.exist\" onerror=\"alert(document.cookie);\">. But not <strong>all</strong> bad.' supplied","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id 383b9ab3-8a21-4bae-8705-ad737b5b9d40 created","level":"info"}
+{"message":"Invalid url 'Bad image <img src=\"https://url.to.file.which/does-not.exist\" onerror=\"alert(document.cookie);\">. But not <strong>all</strong> bad.' supplied","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Invalid url 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'undefined' supplied","level":"error"}
+{"message":"Invalid rating 'invalid' supplied","level":"error"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id 6ceb9d97-37df-4f5e-868a-555484a81e48 created","level":"info"}
+{"message":"Invalid url 'Bad image <img src=\"https://url.to.file.which/does-not.exist\" onerror=\"alert(document.cookie);\">. But not <strong>all</strong> bad.' supplied","level":"error"}
