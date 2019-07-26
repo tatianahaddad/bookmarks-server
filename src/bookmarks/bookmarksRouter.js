@@ -9,6 +9,7 @@ const bodyParser = express.json();
 const {bookmarks} = require('../bookmarks')
 const BookmarksService = require('../bookmarks-service')
 const path = require('path')
+const { getBookmarkValidationError } = require('./bookmark-validator')
 
 const serializeBookmark = bookmark => ({
   id: bookmark.id,
@@ -42,6 +43,8 @@ bookmarksRouter
       }
     }
 
+    const error = getBookmarkValidationError(newBookmark)
+
     if (error) return res.status(400).send(error)
 
     BookmarksService.insertBookmark(
@@ -57,7 +60,6 @@ bookmarksRouter
       })
       .catch(next)
   })
-
 
 bookmarksRouter
   .route('/:bookmark_id')

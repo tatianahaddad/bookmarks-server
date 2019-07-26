@@ -28,7 +28,7 @@ describe('Bookmarks Endpoints', () => {
         .insert(testBookmarks)
     })
 
-    it.only(`responds with 401 Unauthorized for GET /api/bookmarks`, () => {
+    it(`responds with 401 Unauthorized for GET /api/bookmarks`, () => {
       return supertest(app)
         .get('/api/bookmarks')
         .expect(401, { error: 'Unauthorized request' })
@@ -136,7 +136,7 @@ describe('Bookmarks Endpoints', () => {
 
       it('responds with 200 and the specified bookmark', () => {
         const bookmarkId = 2
-        const expectedBookmark = testBookmarks[bookmarkId - 1]
+        const expectedBookmark = testBookmarks.filter(bookmark => bookmark.id === bookmarkId)[0]
         return supertest(app)
           .get(`/api/bookmarks/${bookmarkId}`)
           .set('Authorization', `Bearer ${process.env.API_TOKEN}`)
@@ -189,7 +189,7 @@ describe('Bookmarks Endpoints', () => {
 
       it('removes the bookmark by ID from the store', () => {
         const idToRemove = 2
-        const expectedBookmarks = testBookmarks.filter(bm => bm.id !== idToRemove)
+        const expectedBookmarks = testBookmarks.filter(bookmark => bookmark.id !== idToRemove)
         return supertest(app)
           .delete(`/api/bookmarks/${idToRemove}`)
           .set('Authorization', `Bearer ${process.env.API_TOKEN}`)
@@ -318,7 +318,7 @@ describe('Bookmarks Endpoints', () => {
           .insert(testBookmarks)
       })
 
-      it('responds with 204 and updates the bookmark', () => {
+      it.only('responds with 204 and updates the bookmark', () => {
         const idToUpdate = 2
         const updateBookmark = {
           title: 'updated bookmark title',

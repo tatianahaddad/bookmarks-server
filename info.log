@@ -196,3 +196,34 @@
 {"message":"rating is required","level":"error"}
 {"message":"Bookmark with id 123456 not found.","level":"error"}
 {"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Bookmark with id 123 not found.","level":"error"}
+{"message":"Bookmark with id 123 not found.","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks/1","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks/1","level":"error"}
+{"message":"Bookmark with id 123 not found.","level":"error"}
+{"message":"Bookmark with id 2 deleted.","level":"info"}
+{"message":"Bookmark with id 2 deleted.","level":"info"}
+{"message":"Unauthorized request to path: /api/bookmarks","level":"error"}
+{"message":"Bookmark with id 123 not found.","level":"error"}
+{"message":"Bookmark with id 123 not found.","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"rating is required","level":"error"}
+{"message":"Bookmark with id 1 created.","level":"info"}
+{"message":"Bookmark with id 1 created.","level":"info"}
+{"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Bookmark with id 1 created.","level":"info"}
+{"message":"Invalid url 'Bad image <img src=\"https://url.to.file.which/does-not.exist\" onerror=\"alert(document.cookie);\">. But not <strong>all</strong> bad.' supplied","level":"error"}
+{"message":"Invalid url 'Bad image <img src=\"https://url.to.file.which/does-not.exist\" onerror=\"alert(document.cookie);\">. But not <strong>all</strong> bad.' supplied","level":"error"}
+{"message":"Bookmark with id 123456 not found.","level":"error"}
